@@ -2,7 +2,7 @@ defmodule LangchainPrompt.Profile do
   @moduledoc """
   Pairs an adapter module with its runtime configuration.
 
-  Returned by `LangchainPrompt.Prompt.set_profile/1` to tell `LangchainPrompt.execute/4`
+  Returned by `c:LangchainPrompt.Prompt.set_profile/1` to tell `LangchainPrompt.execute/4`
   which adapter and options to use for a given prompt execution.
 
   ## Fields

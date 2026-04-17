@@ -7,6 +7,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-04-17
+
+### Changed
+
+- `usage-rules.md` — added concrete multi-clause error-handling example at
+  the call site, `async: true` safety note in the Testing section, and a
+  Don't entry discouraging speculative profile extraction.
+
 ## [0.1.0] - 2026-04-13
 
 ### Added
@@ -37,5 +45,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - `LangchainPrompt.Profiles.TestImpl` — test implementation that always
   returns the `Test` adapter.
 
-[Unreleased]: https://github.com/exfoundry/langchain_prompt/compare/v0.1.0...HEAD
+[Unreleased]: https://github.com/exfoundry/langchain_prompt/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/exfoundry/langchain_prompt/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/exfoundry/langchain_prompt/releases/tag/v0.1.0
