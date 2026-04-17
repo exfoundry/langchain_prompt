@@ -1,7 +1,7 @@
 defmodule LangchainPrompt.MixProject do
   use Mix.Project
 
-  @version "0.1.0"
+  @version "0.1.1"
   @source_url "https://github.com/exfoundry/langchain_prompt"
 
   def project do
@@ -46,7 +46,7 @@ defmodule LangchainPrompt.MixProject do
         "GitHub" => @source_url,
         "Changelog" => "https://hexdocs.pm/langchain_prompt/changelog.html"
       },
-      files: ~w(lib mix.exs README.md CHANGELOG.md LICENSE)
+      files: ~w(lib mix.exs README.md CHANGELOG.md LICENSE usage-rules.md)
     ]
   end
 
