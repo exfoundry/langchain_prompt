@@ -1,3 +1,6 @@
+/.nix/
+/.direnv/
+.envrc
 /_build/
 /cover/
 /deps/
