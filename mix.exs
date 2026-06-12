@@ -1,8 +1,8 @@
 defmodule LangchainPrompt.MixProject do
   use Mix.Project
 
-  @version "0.1.1"
-  @source_url "https://github.com/exfoundry/langchain_prompt"
+  @version "0.1.2"
+  @source_url "https://github.com/saschabrink/langchain_prompt"
 
   def project do
     [

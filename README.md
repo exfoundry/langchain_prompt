@@ -1,5 +1,10 @@
 # LangchainPrompt
 
+[![Hex.pm](https://img.shields.io/hexpm/v/langchain_prompt.svg)](https://hex.pm/packages/langchain_prompt)
+[![Hexdocs](https://img.shields.io/badge/hex-docs-purple.svg)](https://hexdocs.pm/langchain_prompt)
+[![CI](https://github.com/saschabrink/langchain_prompt/actions/workflows/ci.yml/badge.svg)](https://github.com/saschabrink/langchain_prompt/actions/workflows/ci.yml)
+[![License](https://img.shields.io/hexpm/l/langchain_prompt.svg)](https://github.com/saschabrink/langchain_prompt/blob/main/LICENSE)
+
 A structured approach to building prompt-driven LLM pipelines in Elixir.
 
 Define each AI task as a **prompt module** — a plain Elixir module that
