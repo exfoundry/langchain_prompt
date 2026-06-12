@@ -16,6 +16,14 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - CI tests against Elixir 1.19 and 1.20 via the Nix flake dev shells.
 - README badges for Hex version, docs, CI status, and license.
 
+### Fixed
+
+- Removed an unreachable `{:unknown_failure, _}` error clause in `execute/4`
+  (flagged by Elixir 1.20's type checker; `call_adapter/3` already normalizes
+  every adapter result).
+- The `precommit` alias misspelled `--warnings-as-errors`, so compiler
+  warnings were never treated as errors locally.
+
 ## [0.1.1] - 2026-04-17
 
 ### Changed

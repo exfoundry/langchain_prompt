@@ -82,7 +82,6 @@ defmodule LangchainPrompt do
       processed_response
     else
       {:error, _reason} = error -> error
-      error -> {:error, {:unknown_failure, error}}
     end
   end
 
